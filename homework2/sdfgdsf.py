@@ -1,0 +1,5 @@
+desyt = int(input("Введите десятичное число:"))
+dvoika = bin(desyt)
+vosm = oct(desyt)
+print(f"двоичное : {dvoika[2:]}")
+print(f"восмиричное : {vosm[2:]}")
